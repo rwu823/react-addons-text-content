@@ -1,6 +1,6 @@
 {
   "name": "react-addons-text-content",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Like DOM API's `Node.textContent` and it works in React Element",
   "main": "dist/react-addons-text-content.js",
   "scripts": {
@@ -48,6 +48,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.3",
     "nyc": "^6.4.4",
+    "react": "^15.1.0",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   },
