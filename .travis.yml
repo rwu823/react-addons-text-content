@@ -5,5 +5,8 @@ node_js:
   - v5
   - v6
 
+before_install:
+  - npm install -g npm
+
 after_success:
   - npm run coveralls
