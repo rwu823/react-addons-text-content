@@ -1,6 +1,6 @@
 {
   "name": "react-addons-text-content",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Like DOM API's `Node.textContent` and it works in React Element",
   "main": "dist/react-addons-text-content.js",
   "scripts": {

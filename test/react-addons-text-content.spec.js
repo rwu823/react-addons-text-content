@@ -11,6 +11,23 @@ test('should be got text `Hello World`', assert => {
   assert.is(textContent(Com), `Hello World`)
 })
 
+test('render variable', assert => {
+  const Com =
+    <div>
+      <h1>Hello</h1> {'World' + '2'}
+    </div>
+
+  assert.is(textContent(Com), `Hello World2`)
+})
+
+test('render variable2', assert => {
+  const Com =
+    <div>
+      <h1>Hello</h1> {1 + 1}
+    </div>
+
+  assert.is(textContent(Com), `Hello 2`)
+})
 
 test('should output empty string', assert => {
   const Com = <div />
